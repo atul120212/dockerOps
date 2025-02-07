@@ -1,4 +1,4 @@
-FROM redhat/ubi8:8.10
+FROM redhat/ubi9
 
 RUN yum install python39 -y
 
