@@ -1,4 +1,4 @@
-FROM redhat/ubi9
+FROM registry.access.redhat.com/ubi8:8.10
 
 RUN yum install python39 -y
 
